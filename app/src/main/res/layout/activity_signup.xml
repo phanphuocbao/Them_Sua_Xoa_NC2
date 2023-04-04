@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".SignupActivity"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Đăng Nhập"
+        android:text="Đăng Kí"
         android:textAlignment="center"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -19,27 +19,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
     <EditText
-        android:id="@+id/edit_email"
+        android:id="@+id/edit_emailSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Email"/>
 
     <EditText
-        android:id="@+id/edit_pass"
+        android:id="@+id/edit_passSignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"/>
     <Button
-        android:id="@+id/btn_dangnhap"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Đăng Nhập"/>
-    <Button
-        android:id="@+id/btn_dangky"
+        android:id="@+id/btn_dangkySignup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Đăng Ký"/>
-
 
 
 </LinearLayout>
